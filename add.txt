@@ -1,0 +1,8 @@
+import unittest
+def add(x,y):
+return x+y
+class mytest(unittest.testcase):
+def test(self):
+self.assertequal(add(3,4),7)
+if name == ' main ':
+unittest.main()
