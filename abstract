@@ -1,0 +1,9 @@
+class A():
+   def display(self):
+       none
+
+class B(A):
+    def display(self):
+            print ("this is display method")
+obj = B()
+obj.display()
