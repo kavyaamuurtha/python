@@ -1,0 +1,14 @@
+class atm():
+   def display(self):
+       none
+
+class atm2(atm):
+    def display(self):
+            print ("my balance is 100")
+class atm3(atm):
+    def display(self):
+            print("my balance is 200")
+a=atm2()
+a.display()
+a=atm3()
+a.display()
